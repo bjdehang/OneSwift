@@ -6,7 +6,7 @@
 
 ## 目前已经有的内容
 
-### For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+###  [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 
 ## 关于OneX

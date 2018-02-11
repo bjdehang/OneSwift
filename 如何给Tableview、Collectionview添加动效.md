@@ -1,7 +1,6 @@
 ## 如何给Tableview、Collectionview添加动效
-> OneSwift - iOS Tips Only Based On Swift
-
-TableView和CollectionView在开发产品中使用非常频繁，不管是独立使用还是组合使用，掌握它们都是所有iOS开发者必备的技能。
+> OneSwift - iOS Tips Based On Swift
+`TableView`和`CollectionView`在开发产品中使用非常频繁，不管是独立使用还是组合使用，掌握它们都是所有iOS开发者必备的技能。
 
 
 
@@ -14,17 +13,17 @@ TableView和CollectionView在开发产品中使用非常频繁，不管是独立
 
 ### 一、加载Cell的动效
 
-当组件加载时，为了让页面显得动感有趣，可以为TableView、CollectionView整体添加动效。
+当组件加载时，为了让页面显得动感有趣，可以为`TableView`、`CollectionView`整体添加动效。
 
-主要用到的方法是：UIView.animate
+主要用到的方法是：`UIView.animate`
 
 
 
 #### 方案一，Cell逐个呈现，例如OneDay的首页加载。
 
-![image](/img/OneDay首页加载.gif)
+![image](https://bjdehang.github.io/OneSwift/img/OneDay首页加载.gif)
 
-​实现方法是在TableView加载后增加整体的动效，通过循环和延迟，让每个cell从不同的时间开始经历相同的时间动效结束。
+​实现方法是在`TableView`加载后增加整体的动效，通过循环和延迟，让每个Cell从不同的时间开始经历相同的时间动效结束。
 
 函数代码：
 
@@ -51,6 +50,7 @@ func animateTable() {
 
 }
 ```
+</br>
 
 在`ViewWillAppear`中调用：
 
@@ -67,9 +67,9 @@ override func viewWillAppear(_ animated: Bool) {
 
 #### 方案二，Cell同时呈现，例如OneClock的菜单加载。
 
-![image](/img/OneClock菜单加载.gif)
+![image](https://bjdehang.github.io/OneSwift/img/OneClock菜单加载.gif)
 
-​实现方式是在Collectionview加载后，为整体增加动效，因为不需要做延迟处理，所以可以直接以CollectionView整体做动效。
+​实现方式是在`Collectionview`加载后，为整体增加动效，因为不需要做延迟处理，所以可以直接以`CollectionView`整体做动效。
 
 函数代码：
 
@@ -93,8 +93,10 @@ func animateAll(){
 }
 ```
 
+</br>
 
-在ViewWillAppear中调用:
+
+在`ViewWillAppear`中调用:
 ```
 override func viewWillAppear(_ animated: Bool) {
 
@@ -115,8 +117,8 @@ override func viewWillAppear(_ animated: Bool) {
 
 
 
-`Tablview`的点击效果，例如**OneDay**的列表点击。
-![image](/img/OneDay点击反馈.gif)
+#### `Tablview`的点击效果，例如OneDay的列表点击。
+![image](https://bjdehang.github.io/OneSwift/img/OneDay点击反馈.gif)
 
 
 ​实现代码：
@@ -138,6 +140,8 @@ func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath)
     }
 ```
 
+</br>
+
 ```
 func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPath) {
 
@@ -155,8 +159,8 @@ func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPat
 ```
 
 
-`Collection`的点击效果，例如**OneClock**的菜单点击。
-![image](/img/OneClock点击反馈.gif)
+#### `Collection`的点击效果，例如OneClock的菜单点击。
+![image](https://bjdehang.github.io/OneSwift/img/OneClock点击反馈.gif)
 
 
 实现代码：
@@ -171,6 +175,7 @@ func collectionView(_ collectionView: UICollectionView, didHighlightItemAt index
 
     }
 ```
+</br>
 
 ```
 func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
@@ -185,12 +190,12 @@ func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt ind
 ```
 
 
+</br>
+
 推荐大家使用比较平滑的方式实现，如果直接修改大小，点击效果显得非常生硬。
 
+</br>
 
+Github：[OneSwift - iOS Tips Based On Swift](https://bjdehang.github.io/OneSwift)
 
-返回首页：[OneSwift](/index.md)
-
-作者微博：[xDEHANG](http://weibo.com/bujidehang/)
-
-邮箱反馈：chendehang@live.com
+微博：[xDEHANG](http://weibo.com/bujidehang/)

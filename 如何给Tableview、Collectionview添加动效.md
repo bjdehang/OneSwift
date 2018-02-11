@@ -7,12 +7,13 @@ TableView和CollectionView在开发产品中使用非常频繁，不管是独立
 
 今天为大家来分享我使用它们时，如何实现动效的？内容分两部分：
 
-1.加载动效
-2.点击动效
+**1.加载动效**
+
+**2.点击动效**
 
 
 
-一、加载Cell的动效
+### 一、加载Cell的动效
 
 当组件加载时，为了让页面显得动感有趣，可以为TableView、CollectionView整体添加动效。
 
@@ -20,7 +21,7 @@ TableView和CollectionView在开发产品中使用非常频繁，不管是独立
 
 
 
-方案一，Cell逐个呈现，例如OneDay的首页加载。
+#### 方案一，Cell逐个呈现，例如OneDay的首页加载。
 
 
 
@@ -28,6 +29,7 @@ TableView和CollectionView在开发产品中使用非常频繁，不管是独立
 
 函数代码：
 
+``` Swift
 func animateTable() {
 
         let cells = HomeTableView.visibleCells
@@ -49,9 +51,11 @@ func animateTable() {
         }
 
 }
+```
 
 在ViewWillAppear中调用：
 
+``` Swift
 override func viewWillAppear(_ animated: Bool) {
 
         super.viewDidAppear(animated)
@@ -59,7 +63,7 @@ override func viewWillAppear(_ animated: Bool) {
     self.animateTable()
 
 }
-
+```
 
 
 方案二，Cell同时呈现，例如OneClock的菜单加载。
@@ -70,6 +74,7 @@ override func viewWillAppear(_ animated: Bool) {
 
 函数代码：
 
+``` Swift
 func animateAll(){
 
         let animateView = self.SettingCollection
@@ -87,11 +92,11 @@ func animateAll(){
         }, completion: nil)
 
 }
-
+```
 
 
 在ViewWillAppear中调用:
-
+``` Swift
 override func viewWillAppear(_ animated: Bool) {
 
         self.SettingCollection.reloadData()
@@ -99,12 +104,12 @@ override func viewWillAppear(_ animated: Bool) {
         self.animateAll()
 
 }
-
+```
 
 
 二、点击Cell的动效
 
-TableView和CollectionView在被点击时可以添加一定的动效，同时在点击完成后我们需要恢复最初始的状态。
+**TableView** 和 **CollectionView** 在被点击时可以添加一定的动效，同时在点击完成后我们需要恢复最初始的状态。
 
 用到的方法是：didHighlightItemAt、didUnhighlightItemAt、CGAffineTransform
 
@@ -115,7 +120,7 @@ Tablview的点击效果，例如OneDay的列表点击。
 
 
 ​实现代码：
-
+``` Swift
 func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) {
 
         let cell = tableView.cellForRow(at: indexPath) as! CustomTableViewCell
@@ -131,7 +136,9 @@ func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath)
 
 
     }
+```
 
+``` Swift
 func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPath) {
 
         let cell = tableView.cellForRow(at: indexPath) as! CustomTableViewCell
@@ -145,7 +152,7 @@ func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPat
         UIView.commitAnimations()
 
 }
-
+```
 
 
 Collection的点击效果，例如OneClock的菜单点击。
@@ -153,7 +160,7 @@ Collection的点击效果，例如OneClock的菜单点击。
 
 
 实现代码：
-
+``` Swift
 func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
 
         let cell = collectionView.cellForItem(at: indexPath) as! SettingCollectionViewCell
@@ -163,7 +170,9 @@ func collectionView(_ collectionView: UICollectionView, didHighlightItemAt index
         cell.HeightCons.constant = 10
 
     }
+```
 
+``` Swift
 func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
 
         let cell = collectionView.cellForItem(at: indexPath) as! SettingCollectionViewCell
@@ -173,7 +182,7 @@ func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt ind
         cell.HeightCons.constant = 0
 
 }
-
+```
 
 
 推荐大家使用比较平滑的方式实现，如果直接修改大小，点击效果显得非常生硬。

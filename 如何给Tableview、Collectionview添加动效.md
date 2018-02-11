@@ -50,7 +50,7 @@ func animateTable() {
 
 }
 ```
-</br>
+
 
 在`ViewWillAppear`中调用：
 
@@ -93,7 +93,7 @@ func animateAll(){
 }
 ```
 
-</br>
+
 
 
 在`ViewWillAppear`中调用:
@@ -140,7 +140,7 @@ func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath)
     }
 ```
 
-</br>
+
 
 ```
 func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPath) {
@@ -175,7 +175,7 @@ func collectionView(_ collectionView: UICollectionView, didHighlightItemAt index
 
     }
 ```
-</br>
+
 
 ```
 func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
@@ -190,11 +190,11 @@ func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt ind
 ```
 
 
-</br>
+
 
 推荐大家使用比较平滑的方式实现，如果直接修改大小，点击效果显得非常生硬。
 
-</br>
+
 
 Github：[OneSwift - iOS Tips Based On Swift](https://bjdehang.github.io/OneSwift)
 

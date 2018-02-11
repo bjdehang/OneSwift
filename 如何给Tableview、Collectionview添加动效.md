@@ -23,7 +23,7 @@ TableView和CollectionView在开发产品中使用非常频繁，不管是独立
 
 #### 方案一，Cell逐个呈现，例如OneDay的首页加载。
 
-
+![image](/img/OneDay首页加载.gif)
 
 ​实现方法是在TableView加载后增加整体的动效，通过循环和延迟，让每个cell从不同的时间开始经历相同的时间动效结束。
 

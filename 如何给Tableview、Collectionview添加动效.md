@@ -53,7 +53,7 @@ func animateTable() {
 }
 ```
 
-在ViewWillAppear中调用：
+在`ViewWillAppear`中调用：
 
 ```
 override func viewWillAppear(_ animated: Bool) {

@@ -6,7 +6,7 @@
 
 ## 目前已经有的内容
 
-###  [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+###  [如何给Tableview、Collectionview添加动效](/如何给Tableview、Collectionview添加动效.md).
 
 
 ## 关于OneX

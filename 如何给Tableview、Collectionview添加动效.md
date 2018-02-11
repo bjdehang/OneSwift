@@ -12,7 +12,6 @@ TableView和CollectionView在开发产品中使用非常频繁，不管是独立
 **2.点击动效**
 
 
-
 ### 一、加载Cell的动效
 
 当组件加载时，为了让页面显得动感有趣，可以为TableView、CollectionView整体添加动效。
@@ -68,7 +67,7 @@ override func viewWillAppear(_ animated: Bool) {
 
 #### 方案二，Cell同时呈现，例如OneClock的菜单加载。
 
-
+![image](/img/OneClock菜单加载.gif)
 
 ​实现方式是在Collectionview加载后，为整体增加动效，因为不需要做延迟处理，所以可以直接以CollectionView整体做动效。
 
@@ -109,6 +108,7 @@ override func viewWillAppear(_ animated: Bool) {
 
 ### 二、点击Cell的动效
 
+
 `TableView` 和 `CollectionView` 在被点击时可以添加一定的动效，同时在点击完成后我们需要恢复最初始的状态。
 
 用到的方法是：`didHighlightItemAt`、`didUnhighlightItemAt`、`CGAffineTransform`
@@ -116,7 +116,7 @@ override func viewWillAppear(_ animated: Bool) {
 
 
 `Tablview`的点击效果，例如**OneDay**的列表点击。
-
+![image](/img/OneDay点击反馈.gif)
 
 
 ​实现代码：
@@ -156,7 +156,7 @@ func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPat
 
 
 `Collection`的点击效果，例如**OneClock**的菜单点击。
-
+![image](/img/OneClock点击反馈.gif)
 
 
 实现代码：
@@ -189,4 +189,8 @@ func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt ind
 
 
 
-返回首页：[OneSwift](/index.md).
+返回首页：[OneSwift](/index.md)
+
+作者微博：[xDEHANG](http://weibo.com/bujidehang/)
+
+邮箱反馈：chendehang@live.com

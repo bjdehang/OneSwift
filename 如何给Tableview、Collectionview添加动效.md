@@ -29,7 +29,7 @@ TableView和CollectionView在开发产品中使用非常频繁，不管是独立
 
 函数代码：
 
-``` Swift
+```
 func animateTable() {
 
         let cells = HomeTableView.visibleCells
@@ -55,7 +55,7 @@ func animateTable() {
 
 在ViewWillAppear中调用：
 
-``` Swift
+```
 override func viewWillAppear(_ animated: Bool) {
 
         super.viewDidAppear(animated)
@@ -66,7 +66,7 @@ override func viewWillAppear(_ animated: Bool) {
 ```
 
 
-方案二，Cell同时呈现，例如OneClock的菜单加载。
+#### 方案二，Cell同时呈现，例如OneClock的菜单加载。
 
 
 
@@ -74,7 +74,7 @@ override func viewWillAppear(_ animated: Bool) {
 
 函数代码：
 
-``` Swift
+```
 func animateAll(){
 
         let animateView = self.SettingCollection
@@ -96,7 +96,7 @@ func animateAll(){
 
 
 在ViewWillAppear中调用:
-``` Swift
+```
 override func viewWillAppear(_ animated: Bool) {
 
         self.SettingCollection.reloadData()
@@ -107,20 +107,20 @@ override func viewWillAppear(_ animated: Bool) {
 ```
 
 
-二、点击Cell的动效
+### 二、点击Cell的动效
 
-**TableView** 和 **CollectionView** 在被点击时可以添加一定的动效，同时在点击完成后我们需要恢复最初始的状态。
+`TableView` 和 `CollectionView` 在被点击时可以添加一定的动效，同时在点击完成后我们需要恢复最初始的状态。
 
-用到的方法是：didHighlightItemAt、didUnhighlightItemAt、CGAffineTransform
+用到的方法是：`didHighlightItemAt`、`didUnhighlightItemAt`、`CGAffineTransform`
 
 
 
-Tablview的点击效果，例如OneDay的列表点击。
+`Tablview`的点击效果，例如**OneDay**的列表点击。
 
 
 
 ​实现代码：
-``` Swift
+```
 func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) {
 
         let cell = tableView.cellForRow(at: indexPath) as! CustomTableViewCell
@@ -138,7 +138,7 @@ func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath)
     }
 ```
 
-``` Swift
+```
 func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPath) {
 
         let cell = tableView.cellForRow(at: indexPath) as! CustomTableViewCell
@@ -155,12 +155,12 @@ func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPat
 ```
 
 
-Collection的点击效果，例如OneClock的菜单点击。
+`Collection`的点击效果，例如**OneClock**的菜单点击。
 
 
 
 实现代码：
-``` Swift
+```
 func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
 
         let cell = collectionView.cellForItem(at: indexPath) as! SettingCollectionViewCell
@@ -189,18 +189,4 @@ func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt ind
 
 
 
-
-
-下载OneDay
-
-下载OneClock
-
-OneDay的10种主题是如何实现的？
-
-OneDay的Widget小组件如何自适应高度？
-
-OneClock的翻页时钟效果是如何实现的？
-
-
-
-更多Swift开发技巧以后将在这里收录：OneSwift​
+返回首页：[OneSwift](/index.md).

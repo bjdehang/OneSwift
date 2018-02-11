@@ -172,7 +172,7 @@ func collectionView(_ collectionView: UICollectionView, didHighlightItemAt index
     }
 ```
 
-``` Swift
+```
 func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
 
         let cell = collectionView.cellForItem(at: indexPath) as! SettingCollectionViewCell

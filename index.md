@@ -13,6 +13,9 @@
 
 ####  [4.如何给Tableview、Collectionview添加动效？](/4.如何给Tableview、Collectionview添加动效.md)
 
+####  [5.如何在应用中添加图标更换功能？](/5.如何在应用中添加图标更换功能.md)
+
+
 
 ### 关于OneX
 > OneX系列产品，注重简洁、实用、美观

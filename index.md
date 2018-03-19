@@ -17,6 +17,9 @@
 
 ####  [6.Cell中添加多个Switch组件如何执行不同的函数？](/6.Cell中添加多个Switch组件如何执行不同的函数.md)
 
+####  [7.Swift开发应用时如何更方便地使用颜色？](/7.Swift开发应用时如何更方便地使用颜色.md)
+
+####  [8.在同一个页面中添加多个CollectionView？](/8.在同一个页面中添加多个CollectionView.md)
 
 
 ### 关于OneX

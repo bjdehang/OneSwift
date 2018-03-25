@@ -21,6 +21,8 @@
 
 ####  [8.在同一个页面中添加多个CollectionView？](/8.在同一个页面中添加多个CollectionView.md)
 
+####  [9.屏幕中上下左右滑动实现某些特定操作？](/9.屏幕中上下左右滑动实现某些特定操作.md)
+
 
 ### 关于OneX
 > OneX系列产品，注重简洁、实用、美观
@@ -28,6 +30,7 @@
 #### [OneDay - 计算日子的勿忘清单](https://itunes.apple.com/cn/app/id1250290965)
 #### [OneClock - 可不息屏的极简翻页时钟](https://itunes.apple.com/cn/app/id1257395357)
 #### [OneRead - 畅快的Readhub阅读器](https://jinshuju.net/f/syQKg5)
+#### [OneScreen - 畅快的Readhub阅读器](https://jinshuju.net/f/syQKg5)
 
 OneScreen、OneCall...开发中
 

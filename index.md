@@ -23,6 +23,8 @@
 
 ####  [9.屏幕中上下左右滑动实现某些特定操作？](/9.屏幕中上下左右滑动实现某些特定操作.md)
 
+####  [10.为设置中心添加常用功能](/10.为设置中心添加常用功能.md)
+
 
 ### 关于OneX
 > OneX系列产品，注重简洁、实用、美观
@@ -30,9 +32,9 @@
 #### [OneDay - 计算日子的勿忘清单](https://itunes.apple.com/cn/app/id1250290965)
 #### [OneClock - 可不息屏的极简翻页时钟](https://itunes.apple.com/cn/app/id1257395357)
 #### [OneRead - 畅快的Readhub阅读器](https://jinshuju.net/f/syQKg5)
-#### [OneScreen - 畅快的Readhub阅读器](https://jinshuju.net/f/syQKg5)
+#### [OneScreen - 带壳截屏可以更有趣](https://itunes.apple.com/cn/app/id1355476695?mt=8)
 
-OneScreen、OneCall...开发中
+OneCall...开发中
 
 
 ### 关于我
@@ -46,6 +48,10 @@ OneScreen、OneCall...开发中
 > 2017年9月27日，被指标题后缀侵权，苹果将OneDay下架；
 
 > 2017年12月13日，经过多次与苹果邮件往来，OneDay恢复上架；
+
+> 2017年3月124日，OneRead转为长期内测；
+
+> 2018年3月27日，OneScreen上架，当日付费总榜第二；
 
 
 微博：[xDEHANG](https://weibo.com/bujidehang)

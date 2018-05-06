@@ -5,7 +5,7 @@
 
 ### 文章持续更新：
 
-####  [14.Swift如何给应用添加3D Touch菜单](/articles/14.Swift如何给应用添加3D Touch菜单.md)
+####  [14.Swift如何给应用添加3DTouch菜单](/articles/14.Swift如何给应用添加3D Touch菜单.md)
 
 ####  [13.Swift如何纯代码实现时钟效果](/articles/13.Swift如何纯代码实现时钟效果.md)
 

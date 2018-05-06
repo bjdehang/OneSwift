@@ -3,6 +3,9 @@
 > 这里将长期分享Swift的一些小技巧和案例。
 
 
+[![](https://img.shields.io/badge/language-Swift-green.svg)](https://bjdehang.github.io/OneSwift/)
+[![](https://jaywcjlove.github.io/sb/lang/chinese.svg)](https://bjdehang.github.io/OneSwift/)
+
 ### 文章持续更新：
 
 

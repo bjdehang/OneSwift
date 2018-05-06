@@ -5,6 +5,8 @@
 
 ### 文章持续更新：
 
+####  [14.Swift如何给应用添加3D Touch菜单](/14.Swift如何给应用添加3D Touch菜单.md)
+
 ####  [13.Swift如何纯代码实现时钟效果](/13.Swift如何纯代码实现时钟效果.md)
 
 ####  [12.利用指纹识别或面部识别添加私密保护功能](/12.利用指纹识别或面部识别添加私密保护功能.md)
@@ -38,8 +40,6 @@
 #### [OneClock - 可不息屏的极简翻页时钟](https://itunes.apple.com/cn/app/id1257395357)
 #### [OneRead - 畅快的Readhub阅读器](https://jinshuju.net/f/syQKg5)
 #### [OneScreen - 带壳截屏可以更有趣](https://itunes.apple.com/cn/app/id1355476695?mt=8)
-
-OneCall...开发中
 
 
 ### 关于我

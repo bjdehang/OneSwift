@@ -1,6 +1,6 @@
 ## 欢迎访问OneSwift
 
-> 这里将长期分享Swift的一些小技巧和案例。
+> IMONE产品系列由Swift开发，这里将长期分享Swift的一些小技巧和案例。
 
 
 [![](https://img.shields.io/badge/language-Swift-green.svg)](https://bjdehang.github.io/OneSwift/)
@@ -37,30 +37,33 @@
 
 ####  [01.OneClock的翻页时钟效果是如何实现的？](/articles/01.OneClock的翻页时钟效果是如何实现的.md)
 
-### 关于OneX
-> OneX系列产品，注重简洁、实用、美观
+
+### 关于IMONE
+> IMONE系列产品，注重简洁、实用、美观
 
 #### [OneDay - 计算日子的勿忘清单](https://itunes.apple.com/cn/app/id1250290965)
 #### [OneClock - 可不息屏的极简翻页时钟](https://itunes.apple.com/cn/app/id1257395357)
-#### [OneRead - 畅快的Readhub阅读器](https://jinshuju.net/f/syQKg5)
 #### [OneScreen - 带壳截屏可以更有趣](https://itunes.apple.com/cn/app/id1355476695?mt=8)
+#### [OneBoard - 键盘智能插件扩展与常用快捷短语](https://itunes.apple.com/cn/app/id1263389963?mt=8)
+#### [OneFlag - 愿望清单](https://itunes.apple.com/cn/app/id1449484075?mt=8)
 
 
-### 关于我
+### 关于作者
 
-> 2017年3月24日，我开始零基础学习iOS开发；
+> 2017年3月24日，我开始无编程背景零基础学习iOS开发；
 
 > 2017年7月04日，OneDay上架，工具付费榜36、付费总榜456；
 
 > 2017年7月24日，OneClock上架，工具付费榜14、付费总榜263；
 
-> 2017年9月27日，被指标题后缀侵权，苹果将OneDay下架；
-
-> 2017年12月13日，经过多次与苹果邮件往来，OneDay恢复上架；
-
-> 2017年3月124日，OneRead转为长期内测；
+> 2018年3月24日，OneRead转为长期内测；
 
 > 2018年3月27日，OneScreen上架，当日付费总榜第二；
+
+> 2018年11月18日，OneBoard上架，当日付费总榜第七；
+
+> 2019年02月01日，OneFlag上架，当日付费工具总榜第二；
+
 
 
 微博：[xDEHANG](https://weibo.com/bujidehang)

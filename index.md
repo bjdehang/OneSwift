@@ -9,7 +9,7 @@
 
 微博：[xDEHANG](https://weibo.com/bujidehang)
 
-邮箱：[xdehang@gmail.com](xdehang@gmail.com)
+邮箱：[xdehang@gmail.com](mailto://xdehang@gmail.com)
 
 掘金：[xDEHANG](https://juejin.im/user/5667a29e60b27cc2c4b50c9d)
 
@@ -17,7 +17,7 @@
 
 ### 文章持续更新：
 
-####  [15.如何使用Mac Catalyst发布macOS App](/articles/15.如何使用Mac Catalyst发布macOS App.md)
+####  [15.如何使用Mac Catalyst发布macOS App](/articles/15.如何使用Mac_Catalyst发布macOS_App.md)
 
 ####  [14.Swift如何给应用添加3D Touch菜单](/articles/14.Swift如何给应用添加3D_Touch菜单.md)
 
@@ -57,7 +57,7 @@
 #### [OneScreen - 带壳截屏自有创作](https://itunes.apple.com/cn/app/id1355476695?mt=8)
 #### [OneFlag - 愿望清单](https://itunes.apple.com/cn/app/id1449484075)
 
-### 关于我
+### 时间线
 
 > 2017年3月24日，我开始零基础学习iOS开发；
 

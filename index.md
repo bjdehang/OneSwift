@@ -17,7 +17,7 @@
 
 ### 文章持续更新：
 
-####  [15.如何使用Mac Catalyst发布macOS App](/articles/14.Swift如何给应用添加3D_Touch菜单.md)
+####  [15.如何使用Mac Catalyst发布macOS App](/articles/15.如何使用Mac_Catalyst发布macOS_App.md)
 
 ####  [14.Swift如何给应用添加3D Touch菜单](/articles/14.Swift如何给应用添加3D_Touch菜单.md)
 

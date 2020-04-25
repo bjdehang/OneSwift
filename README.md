@@ -9,7 +9,7 @@
 
 微博：[xDEHANG](https://weibo.com/bujidehang)
 
-邮箱：[xdehang@gmail.com](xdehang@gmail.com)
+邮箱：[xdehang@gmail.com](mailto://xdehang@gmail.com)
 
 掘金：[xDEHANG](https://juejin.im/user/5667a29e60b27cc2c4b50c9d)
 

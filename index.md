@@ -57,7 +57,7 @@
 #### [OneScreen - 带壳截屏自有创作](https://itunes.apple.com/cn/app/id1355476695?mt=8)
 #### [OneFlag - 愿望清单](https://itunes.apple.com/cn/app/id1449484075)
 
-### 关于我
+### 时间线
 
 > 2017年3月24日，我开始零基础学习iOS开发；
 

@@ -54,7 +54,7 @@
 #### [OneDay - 计算日子的勿忘清单](https://itunes.apple.com/cn/app/id1250290965)
 #### [OneClock - 可不息屏的极简翻页时钟](https://itunes.apple.com/cn/app/id1257395357)
 #### [OneBoard - 快捷短语与键盘插件](https://apps.apple.com/cn/app/id1263389963)
-#### [OneScreen - 带壳截屏自有创作](https://itunes.apple.com/cn/app/id1355476695?mt=8)
+#### [OneScreen - 带壳截屏自由创作](https://itunes.apple.com/cn/app/id1355476695?mt=8)
 #### [OneFlag - 愿望清单](https://itunes.apple.com/cn/app/id1449484075)
 
 ### 时间线
@@ -76,3 +76,5 @@
 > 2018年11月19日，OneBoard上架；
 
 > 2019年2月14日，OneFlag上架；
+
+> 2020年4月12日，OneClock for Mac上架；
